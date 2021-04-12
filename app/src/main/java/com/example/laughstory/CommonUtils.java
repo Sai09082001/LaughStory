@@ -24,7 +24,6 @@ public class CommonUtils {
             BufferedReader br=new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8));
             StringBuilder text = new StringBuilder();
             String line=br.readLine();
-//
 //            int len = in.read(buff);
             while(line!=null){
 //                text.append(new String(buff, 0, len));
